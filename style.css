@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+    flex-direction: column;
+}
+
+.main{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pic{
+    margin-top: 10px;
+    height: 300px;
+    width: 400px;
+    background-image: url("1st.jpg");
+    background-size: cover;
+}
+
+.pic2{
+    height: 300px;
+    width: 400px;
+    background-image: url("2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.pic3{
+    height: 300px;
+    width: 400px;
+    background-image: url("3.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.pic4{
+    height: 300px;
+    width: 400px;
+    background-image: url("leo.jpg");
+    background-size: cover;
+}
+
+.pic5{
+    height: 300px;
+    width: 400px;
+    background-image: url("shoot.jpg");
+    background-size: cover;
+}
+
+.pic6{
+    height: 300px;
+    width: 400px;
+    background-image: url("cant.jpg");
+    background-size: cover;
+}
+
+.pic7{
+    height: 300px;
+    width: 400px;
+    background-image: url("bye.jpg");
+    background-size: cover;
+}
+
+.bradsad{
+    height: 300px;
+    width: 400px;
+    background-image: url("bradsad.jpg");
+    background-size: cover;
+}
+
+.pic8{
+    height: 300px;
+    width: 400px;
+    background-image: url("8.jpg");
+    background-size: cover;
+}
+
+.pic9{
+    height: 300px;
+    width: 400px;
+    background-image: url("9.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+ .buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+
+.btn{
+    height: 50px;
+    width: 90px;
+    margin: 20px;
+    background-color: bisque;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: larger;
+}
